@@ -1,0 +1,16 @@
+#markdown pre {
+    background: lightgray;
+    border: 2px solid dimgray;
+    padding: 8px;
+}
+
+#markdown pre::first-line {
+    font-weight: bold;
+}
+
+#markdown img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+}
